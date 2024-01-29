@@ -1,5 +1,37 @@
+
 h1{
     font-family: "Roboto Slab";
     font-size: 2em;
-    display: flex;
+    color: #195272;
+    text-align: center;
 }
+.cute-robot-v1 {
+    background: #ffffff;
+    outline-color: #195272;
+    face-color: #e1f4f0;
+    tongue-color: #f9bbbb;
+    inner-bg: #cedbdd;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    * {
+        box-sizing: border-box;
+}
+
+
+}
+.circle-bg {
+    background: #cedbdd;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 8px solid #195272;
+    position: relative;
+}
+
+
+
+
+    
